@@ -1,0 +1,12 @@
+schema: '2.0'
+stages:
+  get_data:
+    cmd: python get_data.py
+    deps:
+    - path: get_data.py
+      md5: a0f8f8c8d85bdd88b615bf3e424125c2
+      size: 602
+    outs:
+    - path: data_raw.csv
+      md5: a6aec8da63a5fa2619af025a76746f29
+      size: 68868
